@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="divTitle">
+        <h1 class="title">Encriptador de Texto</h1>
+    </div>
+
+    <div class="container">
+        <div class="divTextoEncriptar">
+            <textarea class="ingresarTexto" cols="28" rows="5" placeholder="Ingrese el texto a encriptar"></textarea>
+            <div class="buttons">
+                <button class="buttonEncriptar">Encriptar</button>
+                <button class="buttonDesencriptar">Desencriptar</button>
+            </div>
+        </div>
+        <div class="divTextoEncriptado">
+            <textarea class="textoEncriptado" cols="28" rows="5"
+                placeholder="Aquí estará su texto encriptado"></textarea>
+            <div class="buttons">
+                <button class="copy" onclick="copy()">Copiar</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <h3 class="textFooter">Desarrollado por Maitén Blanc</h3>
+    </footer>
+</body>
+
+<script src="./Js/encriptar.js"></script>
+<script src="./Js/desencriptar.js"></script>
+<script src="./Js/validador.js"></script>
+<script src="./Js/copy.js"></script>
+
+</html>

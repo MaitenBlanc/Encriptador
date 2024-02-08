@@ -1,0 +1,74 @@
+:root {
+    --protest-revolution: 'Protest Revolution', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+}
+
+html {
+    background-image: url("https://trustcloud.tech/wp-content/uploads/BYOK_ES_header.jpeg");
+    margin: 0;
+    padding: 0;
+}
+
+.divTitle {
+    display: flex;
+    margin-top: 2em;
+}
+
+.title {
+    color: white;
+    background-color: black;
+    margin: auto;
+    font-size: 3em;
+    padding: 0.2em;
+    font-family: var(--protest-revolution);
+}
+
+.ingresarTexto,
+.textoEncriptado {
+    text-align: center;
+    font-size: 2.5em;
+    font-family: var(--protest-revolution);
+    margin-bottom: 0.4em;
+    border-radius: 0.5em;
+}
+
+.container {
+    display: flex;
+    gap: 2em;
+    margin: 3em 0 6.8em 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.buttonEncriptar,
+.buttonDesencriptar,
+.copy {
+    padding: 0.7em;
+    border-radius: 1em;
+    background-color: #008EB0;
+    color: white;
+    font-size: 1.5em;
+    font-family: var(--roboto);
+    border: 0.01em solid white;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+}
+
+.textFooter {
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-family: var(--protest-revolution);
+    font-size: 1.2em;
+    margin: auto;
+}
