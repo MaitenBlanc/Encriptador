@@ -1,0 +1,10 @@
+@import './header.css';
+@import './container.css';
+@import './variables.css';
+@import './footer.css';
+
+html {
+    background-image: url("https://trustcloud.tech/wp-content/uploads/BYOK_ES_header.jpeg");
+    margin: 0;
+    padding: 0;
+}

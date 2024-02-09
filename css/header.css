@@ -1,0 +1,13 @@
+.divTitle {
+    display: flex;
+    margin-top: 2em;
+}
+
+.title {
+    color: white;
+    background-color: black;
+    margin: auto;
+    font-size: 3em;
+    padding: 0.2em;
+    font-family: var(--protest-revolution);
+}
