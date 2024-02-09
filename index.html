@@ -22,15 +22,18 @@
         <div class="divTextoEncriptar">
             <textarea class="ingresarTexto" cols="28" rows="5" placeholder="Ingrese el texto a encriptar"></textarea>
             <div class="buttons">
-                <button class="buttonEncriptar">Encriptar</button>
+                <button class="buttonEncriptar" onclick="ocultar()">Encriptar</button>
                 <button class="buttonDesencriptar">Desencriptar</button>
             </div>
         </div>
-        <div class="divTextoEncriptado">
-            <textarea class="textoEncriptado" cols="28" rows="5"
-                placeholder="Aquí estará su texto encriptado"></textarea>
-            <div class="buttons">
-                <button class="copy" onclick="copy()">Copiar</button>
+        <div class="divEncriptacion">
+            <img class="imgEncrypt" src="./img/crypt.png" alt="Let's Encrypt">
+            <div class="divTextoEncriptado">
+                <textarea class="textoEncriptado" cols="28" rows="5"
+                    placeholder="Aquí estará su texto encriptado"></textarea>
+                <div class="buttons">
+                    <button class="copy" onclick="copy()">Copiar</button>
+                </div>
             </div>
         </div>
     </div>
@@ -44,5 +47,6 @@
 <script src="./Js/desencriptar.js"></script>
 <script src="./Js/validador.js"></script>
 <script src="./Js/copy.js"></script>
+<script src="./Js/ocultarImagen.js"></script>
 
 </html>

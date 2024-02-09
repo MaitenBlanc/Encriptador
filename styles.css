@@ -23,6 +23,21 @@ html {
     font-family: var(--protest-revolution);
 }
 
+.divTextoEncriptado {
+    display: none;
+}
+
+.imgEncrypt {
+    width: 36em;
+    height: 15em;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-color: white;
+    border-radius: 0.5em;
+    border: 0.002em solid #767676;
+}
+
 .ingresarTexto,
 .textoEncriptado {
     text-align: center;
