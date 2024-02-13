@@ -10,3 +10,17 @@ footer {
     font-size: 1.2em;
     margin: auto;
 }
+
+
+@media screen and (min-width: 700px) {
+    .textFooter {
+        margin-top: 1em;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .textFooter {
+        margin-top: 5em;
+    }
+}

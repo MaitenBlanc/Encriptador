@@ -7,7 +7,23 @@
     color: white;
     background-color: black;
     margin: auto;
-    font-size: 3em;
+    font-size: 2em;
     padding: 0.2em;
     font-family: var(--protest-revolution);
+}
+
+
+@media screen and (min-width: 700px) {
+    .title {
+        font-size: 4em;
+        margin: auto;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .title {
+        font-size: 4em;
+        margin: auto;
+    }
 }
